@@ -9,7 +9,7 @@
 import UIKit
 import IGListKit
 
-final class LabelsViewController2: BaseListViewController2, BaseListViewController2DataSource {
+final class LabelsViewController2: BaseListViewController2<String>, BaseListViewController2DataSource {
 
     private let selectedLabels: Set<RepositoryLabel>
     private var labels = [RepositoryLabel]()
